@@ -1,0 +1,70 @@
+<html>
+    
+    <head>
+        <title>Using External CSS</title>
+        <link href="pregamin.CSS" type="text/css" rel="stylesheet" />    
+        <meta charset="UTF-9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <header>
+            <h1><img src="mainpic.jpg" width="120" height="120" align="left" /> The World of <i>ESports</i></h1>
+            <hr width "100%" size="2" color="purple" noshade>
+       <body>
+            <nav>
+            <div class='heading'>
+                <h5>Quick Links</h5>
+            </div>
+            <ul class="nav-links">
+                <li><a class='active' href="index3.html">Home</a></li>
+                <li><a href="navibar/about.html">About</a></li>
+                <li><a href="navibar/services.html">Services</a></li>
+                <li><a href="serv.html">Contact</a></li>
+            </ul>
+                <hr width "100%" size="2" color="purple" noshade>
+        </nav>      
+            <div class="body-text"></div>
+            </body>
+         </header>
+    <script type="text/javascript">
+    function setNewImage()
+        {
+            document.getElementById("img1").src ="r6mo.jpg";
+        }
+    function setOldImage()
+        {
+                        
+            document.getElementById("img1").src ="falcons.jpeg";
+        }
+    </script>
+    
+    <script type="text/javascript">
+    function setMoImage()
+        {
+            document.getElementById("mat2").src ="r6mo.jpg";
+        }
+    function setMuImage()
+        {
+            document.getElementById("mat2").src ="r6.jpeg";
+
+        }        
+    </script>
+    
+        <main>
+ 
+            <a href="mat1inf.html">
+            <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
+                 src="falcons.jpeg" width="400" height="250" align="center" class="center"/></a>
+            <p><b>Todays first match is a Rainbow 6 Siege match between Oxygen Esports and Team BDS</b></p>
+            <br />
+            <a href="mat2inf.html">
+            <img id="mat2" onmouseover="setMoImage()" onmouseout="setMuImage()"
+                 src="r6.jpeg" width="400" height="250" align="center" class="center"/></a>
+            <p><b>Next we have Wolves Esports facing off against Wylde the British gaming team.</b></p>
+            
+        <footer>
+            <p id=advert> Join The Millions of Gamers Playing Today!
+                <img id="adv" src="mainaddd.jpg"  /> </p>
+            </footer>
+        </main>
+</html>
+

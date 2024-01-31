@@ -1,0 +1,134 @@
+* {
+    font-family: monospace;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    
+}
+h1 {
+    font-family: "Courier New", monospace;
+    background-color: ;
+
+}
+
+.p {
+    font-weight: bolder;}
+p {
+    font-family: monospace;
+    text-align: center;}
+
+.center {
+    margin-top: 0;
+    display: block;
+    width: auto;
+}
+.body-text{
+    display: flex;
+    font-family: "Montserrat" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: aliceblue;
+    font-family: "Courier New" , monospace;
+}
+.nav-links {
+    display: contents;
+    word-spacing: 5;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li {
+    list-style: none;
+}
+.heading{
+    color: ;
+    letter-spacing: 1px;
+    font-size: 30px;
+    align-content: space-around;
+}
+.nav-links {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+    
+}
+.nav-links li a.hover:not(.active){
+    background-color: blue;
+}
+.nav-links li.active{
+    background-color: aliceblue;
+}
+
+#adv {
+    height: 250;
+    width: 1020;
+    margin-top: 5;
+}
+#advert {
+    font-family: fantasy;
+    margin-top: 40;
+    
+}
+
+#advert2 {
+    margin-top: 580;
+    
+}
+#advert3 {
+    margin-top: 275;
+}
+#advert4 {
+    margin-top: 275;
+}
+#advert8 {
+    margin-top: 50;
+}
+#advert9 {
+    margin-top: 270;
+}
+
+#compu {
+    height: 300;
+    margin-top: 60;
+    align-content: center;
+    
+}
+#msgint {
+    text-align: center;
+    margin-top: 115;
+    font-weight: bolder;
+}
+#aboutmsg {
+    text-align: center;
+    margin-top: 10;
+}
+.abt {
+    text-align: center;
+    font-size: 48;
+}
+#abtmsg{
+    margin-top: 100;
+    text-align: center;
+    font-size: 48;
+    color: blueviolet;    
+}
+#knite {
+    height: 600;
+    margin-top: 5;
+    margin-left: 10;
+}
+#suph {
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 100;
+}
